@@ -1,0 +1,148 @@
+﻿@model SchoolManagement.Models.Student
+@{
+    ViewData["Title"] = "Add New Student";
+}
+
+@section Styles {
+    <style>
+        .card {
+            border: none;
+            border-radius: 15px;
+        }
+
+        .card-header {
+            border-radius: 15px 15px 0 0 !important;
+            background: linear-gradient(135deg, #28a745, #20c997);
+        }
+
+        .form-control:focus, .form-select:focus {
+            border-color: #28a745;
+            box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+        }
+    </style>
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-lg">
+                <div class="card-header text-white">
+                    <h4 class="mb-0">
+                        <i class="bi bi-person-plus me-2"></i>Add New Student
+                    </h4>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Add" method="post" id="addForm">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                        <div class="form-floating mb-4">
+                            <input asp-for="Name" class="form-control" placeholder="Student Name" />
+                            <label asp-for="Name" class="form-label">Student Name</label>
+                            <span asp-validation-for="Name" class="text-danger small"></span>
+                            <div class="form-text">Enter the full name of the student</div>
+                        </div>
+
+                        <div class="form-floating mb-4">
+                            <input asp-for="Age" type="number" class="form-control" placeholder="Age" min="18" max="50" />
+                            <label asp-for="Age" class="form-label">Age</label>
+                            <span asp-validation-for="Age" class="text-danger small"></span>
+                            <div class="form-text">Age must be between 18 and 50 years</div>
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="DepartmentId" class="form-label fw-bold">Department</label>
+                            <select asp-for="DepartmentId" class="form-select" asp-items="ViewBag.Departments">
+                                <option value="">-- Select Department --</option>
+                            </select>
+                            <span asp-validation-for="DepartmentId" class="text-danger small"></span>
+                            <div class="form-text">Choose the department for this student</div>
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
+                            <button type="submit" class="btn btn-success btn-lg px-4">
+                                <i class="bi bi-check-lg me-1"></i>Add Student
+                            </button>
+                            <a href="@Url.Action("GetAll")" class="btn btn-secondary btn-lg px-4">
+                                <i class="bi bi-x-circle me-1"></i>Cancel
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('addForm');
+            const ageInput = document.querySelector('#Age');
+
+            // Real-time validation
+            const inputs = form.querySelectorAll('input, select');
+            inputs.forEach(input => {
+                input.addEventListener('blur', function() {
+                    validateField(this);
+                });
+
+                input.addEventListener('input', function() {
+                    if (this.classList.contains('is-invalid')) {
+                        validateField(this);
+                    }
+                });
+            });
+
+            function validateField(field) {
+                if (field.checkValidity()) {
+                    field.classList.remove('is-invalid');
+                    field.classList.add('is-valid');
+                } else {
+                    field.classList.remove('is-valid');
+                    field.classList.add('is-invalid');
+                }
+            }
+
+            // Age validation
+            function validateAge() {
+                const age = parseInt(ageInput.value);
+                if (isNaN(age) || age < 18 || age > 50) {
+                    ageInput.classList.add('is-invalid');
+                    return false;
+                }
+                ageInput.classList.remove('is-invalid');
+                return true;
+            }
+
+            ageInput.addEventListener('blur', validateAge);
+
+            // Form submission
+            form.addEventListener('submit', function(e) {
+                let isValid = true;
+
+                inputs.forEach(input => {
+                    validateField(input);
+                    if (!input.checkValidity()) {
+                        isValid = false;
+                    }
+                });
+
+                if (!validateAge()) {
+                    isValid = false;
+                }
+
+                if (!isValid) {
+                    e.preventDefault();
+                    const firstInvalid = form.querySelector('.is-invalid');
+                    if (firstInvalid) {
+                        firstInvalid.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                }
+            });
+        });
+    </script>
+}

@@ -1,0 +1,255 @@
+﻿@model SchoolManagement.Models.Student
+@{
+    ViewData["Title"] = "Student Details";
+}
+
+@section Styles {
+    <style>
+        .student-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: white;
+            margin: 0 auto;
+        }
+
+        .info-card {
+            border-left: 4px solid #007bff;
+        }
+
+        .grade-passed {
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .grade-failed {
+            color: #dc3545;
+            font-weight: bold;
+        }
+    </style>
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12">
+            <nav aria-label="breadcrumb" class="mb-4">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="@Url.Action("GetAll")">Students</a></li>
+                    <li class="breadcrumb-item active">Student Details</li>
+                </ol>
+            </nav>
+
+            <div class="card shadow">
+                <div class="card-header bg-info text-white">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="mb-0">
+                            <i class="bi bi-person-badge me-2"></i>Student Details
+                        </h4>
+                        <div>
+                            <span class="badge bg-light text-info">ID: #@Model.Id</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <!-- Student Header -->
+                    <div class="row mb-4">
+                        <div class="col-md-3 text-center">
+                            <div class="student-avatar mb-3">
+                                @Model.Name.Substring(0, 1).ToUpper()
+                            </div>
+                            <h5>@Model.Name</h5>
+                            <p class="text-muted">Student</p>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card info-card mb-3">
+                                        <div class="card-body">
+                                            <h6 class="card-title">
+                                                <i class="bi bi-person me-2"></i>Personal Information
+                                            </h6>
+                                            <dl class="row mb-0">
+                                                <dt class="col-sm-4">Full Name:</dt>
+                                                <dd class="col-sm-8">@Model.Name</dd>
+
+                                                <dt class="col-sm-4">Age:</dt>
+                                                <dd class="col-sm-8">@Model.Age years</dd>
+
+                                                <dt class="col-sm-4">Student ID:</dt>
+                                                <dd class="col-sm-8">#@Model.Id</dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card info-card mb-3">
+                                        <div class="card-body">
+                                            <h6 class="card-title">
+                                                <i class="bi bi-building me-2"></i>Academic Information
+                                            </h6>
+                                            <dl class="row mb-0">
+                                                <dt class="col-sm-4">Department:</dt>
+                                                <dd class="col-sm-8">@Model.Department?.Name</dd>
+
+                                                <dt class="col-sm-4">Department Head:</dt>
+                                                <dd class="col-sm-8">@Model.Department?.MgrName</dd>
+
+                                                <dt class="col-sm-4">Enrolled Courses:</dt>
+                                                <dd class="col-sm-8">@Model.StuCrsRes.Count</dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Results -->
+                    <div class="row">
+                        <div class="col-12">
+                            <h5 class="border-bottom pb-2 mb-3">
+                                <i class="bi bi-journal-check me-2"></i>Course Results
+                                <span class="badge bg-primary">@Model.StuCrsRes.Count</span>
+                            </h5>
+
+                            @if (Model.StuCrsRes.Any())
+                            {
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
+                                        <thead class="table-light">
+                                            <tr>
+                                                <th>Course Name</th>
+                                                <th>Degree</th>
+                                                <th>Course Manager</th>
+                                                <th>Grade</th>
+                                                <th>Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var result in Model.StuCrsRes)
+                                            {
+                                                var isPassing = new[] { "A", "B", "C", "D", "A+", "A-", "B+", "B-", "C+", "C-" }
+                                                .Contains(result.Grade?.ToUpper() ?? "");
+
+                                                <tr>
+                                                    <td>
+                                                        <strong>@result.Course?.Name</strong>
+                                                    </td>
+                                                    <td>@result.Course?.Degree</td>
+                                                    <td>@result.Course?.MgrName</td>
+                                                    <td>
+                                                        <span class="@(isPassing ? "grade-passed" : "grade-failed")">
+                                                            @result.Grade
+                                                        </span>
+                                                    </td>
+                                                    <td>
+                                                        @if (isPassing)
+                                                        {
+                                                            <span class="badge bg-success">
+                                                                <i class="bi bi-check-circle me-1"></i>Passed
+                                                            </span>
+                                                        }
+                                                        else
+                                                        {
+                                                            <span class="badge bg-danger">
+                                                                <i class="bi bi-x-circle me-1"></i>Failed
+                                                            </span>
+                                                        }
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <!-- Statistics -->
+                                <div class="row mt-4">
+                                    @{
+                                        var passedCount = Model.StuCrsRes.Count(r => new[] { "A", "B", "C", "D", "A+", "A-", "B+", "B-", "C+", "C-" }.Contains(r.Grade?.ToUpper() ?? ""));
+                                        var failedCount = Model.StuCrsRes.Count - passedCount;
+                                        var averageGrade = Model.StuCrsRes.Any() ?
+                                        Model.StuCrsRes.Average(r =>
+                                        r.Grade?.ToUpper() switch
+                                        {
+                                            "A+" => 4.3,
+                                            "A" => 4.0,
+                                            "A-" => 3.7,
+                                            "B+" => 3.3,
+                                            "B" => 3.0,
+                                            "B-" => 2.7,
+                                            "C+" => 2.3,
+                                            "C" => 2.0,
+                                            "C-" => 1.7,
+                                            "D+" => 1.3,
+                                            "D" => 1.0,
+                                            "D-" => 0.7,
+                                            _ => 0.0
+                                        }
+                                        ) : 0.0;
+                                    }
+                                    <div class="col-md-3">
+                                        <div class="card bg-primary text-white text-center">
+                                            <div class="card-body py-3">
+                                                <h6 class="card-title">Total Courses</h6>
+                                                <h4>@Model.StuCrsRes.Count</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card bg-success text-white text-center">
+                                            <div class="card-body py-3">
+                                                <h6 class="card-title">Passed</h6>
+                                                <h4>@passedCount</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card bg-danger text-white text-center">
+                                            <div class="card-body py-3">
+                                                <h6 class="card-title">Failed</h6>
+                                                <h4>@failedCount</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card bg-info text-white text-center">
+                                            <div class="card-body py-3">
+                                                <h6 class="card-title">Average GPA</h6>
+                                                <h4>@averageGrade.ToString("0.00")</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="alert alert-info text-center">
+                                    <i class="bi bi-info-circle me-2"></i>
+                                    This student is not enrolled in any courses yet.
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="d-flex gap-2 justify-content-end mt-4 pt-3 border-top">
+                        <a href="@Url.Action("Edit", new { id = Model.Id })" class="btn btn-warning">
+                            <i class="bi bi-pencil me-1"></i>Edit Student
+                        </a>
+                        <a href="@Url.Action("Delete", new { id = Model.Id })" class="btn btn-danger">
+                            <i class="bi bi-trash me-1"></i>Delete Student
+                        </a>
+                        <a href="@Url.Action("GetAll")" class="btn btn-secondary">
+                            <i class="bi bi-arrow-left me-1"></i>Back to List
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

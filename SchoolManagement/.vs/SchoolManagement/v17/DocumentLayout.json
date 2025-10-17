@@ -1,0 +1,981 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\department\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\department\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\student\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\student\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\student\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\student\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\student\\courseresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\student\\courseresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\student\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\student\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\student\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\student\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\department\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\department\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\student\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\student\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\department\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\department\\showdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\viewmodels\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\viewmodels\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\viewmodels\\customrouteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\viewmodels\\customrouteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\department\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\department\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\viewmodels\\studentlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\viewmodels\\studentlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\viewmodels\\studentcourseresultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\viewmodels\\studentcourseresultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\viewmodels\\courselistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\viewmodels\\courselistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\services\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\services\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\services\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\services\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\models\\stucrsres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\models\\stucrsres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\course\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\course\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\course\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\course\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\course\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\course\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\interfaces\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\data\\schoolcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\data\\schoolcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\data\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\data\\schoolcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\student\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\student\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|e:\\depiassignments\\solutionsmvc8\\schoolmanagement\\schoolmanagement\\views\\student\\getall.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB094AB0-0D31-4E9C-8F4C-0AF46E11690A}|SchoolManagement\\SchoolManagement.csproj|solutionrelative:schoolmanagement\\views\\student\\getall.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShowDetails.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\ShowDetails.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Student\\ShowDetails.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\ShowDetails.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Student\\ShowDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T11:13:19.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Student\\GetAll.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\GetAll.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Student\\GetAll.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:35:29.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:20:54.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseResult.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\CourseResult.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Student\\CourseResult.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\CourseResult.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Student\\CourseResult.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T19:37:16.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\Add.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Student\\Add.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\Add.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Student\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:20:51.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetById.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\GetById.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Student\\GetById.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\GetById.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Student\\GetById.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:39:42.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetById.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Department\\GetById.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Department\\GetById.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Department\\GetById.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Department\\GetById.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T21:33:42.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Department\\Edit.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Department\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T21:33:44.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Department\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Department\\GetAll.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Department\\GetAll.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Department\\GetAll.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T21:32:00.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShowAll.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\ShowAll.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Student\\ShowAll.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\ShowAll.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Student\\ShowAll.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T11:13:17.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShowDetails.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Department\\ShowDetails.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Department\\ShowDetails.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Department\\ShowDetails.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Department\\ShowDetails.cshtml",
+              "ViewState": "AgIAAA0AAAAANDMzMzMLwB4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T11:12:25.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Program.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Program.cs",
+              "RelativeToolTip": "SchoolManagement\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAABEPVIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T11:15:47.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAABAPVMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T11:23:14.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Interfaces\\IDepartmentRepository.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeToolTip": "SchoolManagement\\Interfaces\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:13:11.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwCUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T23:52:23.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T23:53:11.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SchoolManagement\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T19:07:38.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "SchoolManagement\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:14:29.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Services\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Services\\DepartmentService.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Services\\DepartmentService.cs",
+              "RelativeToolTip": "SchoolManagement\\Services\\DepartmentService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:15:53.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CustomRouteViewModel.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\ViewModels\\CustomRouteViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\ViewModels\\CustomRouteViewModel.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\ViewModels\\CustomRouteViewModel.cs",
+              "RelativeToolTip": "SchoolManagement\\ViewModels\\CustomRouteViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:16:24.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DepartmentViewModel.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\ViewModels\\DepartmentViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\ViewModels\\DepartmentViewModel.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\ViewModels\\DepartmentViewModel.cs",
+              "RelativeToolTip": "SchoolManagement\\ViewModels\\DepartmentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T11:10:14.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Repositories\\StudentRepository.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "SchoolManagement\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAIwFcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:14:28.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Services\\StudentService.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Services\\StudentService.cs",
+              "RelativeToolTip": "SchoolManagement\\Services\\StudentService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:15:52.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Services\\IStudentService.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Services\\IStudentService.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Services\\IStudentService.cs",
+              "RelativeToolTip": "SchoolManagement\\Services\\IStudentService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:15:51.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Controllers\\StudentController.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "SchoolManagement\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAB0AAACAMzMzMzMhwHYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T11:11:16.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Department\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Department\\Delete.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Department\\Delete.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Department\\Delete.cshtml",
+              "ViewState": "AgIAAA8AAABAZmZmZmYkwE0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T21:33:45.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Department\\Add.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Department\\Add.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Department\\Add.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Department\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T11:12:27.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Controllers\\DepartmentController.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "SchoolManagement\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T11:11:15.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Controllers\\CourseController.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "SchoolManagement\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAEQAAAAAzczMzMwEwHIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T19:29:39.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "StudentListViewModel.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\ViewModels\\StudentListViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\ViewModels\\StudentListViewModel.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\ViewModels\\StudentListViewModel.cs",
+              "RelativeToolTip": "SchoolManagement\\ViewModels\\StudentListViewModel.cs",
+              "ViewState": "AgIAAAYAAACAmZmZmZkdwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:28:42.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "StudentCourseResultViewModel.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\ViewModels\\StudentCourseResultViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\ViewModels\\StudentCourseResultViewModel.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\ViewModels\\StudentCourseResultViewModel.cs",
+              "RelativeToolTip": "SchoolManagement\\ViewModels\\StudentCourseResultViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T19:35:24.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CourseListViewModel.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\ViewModels\\CourseListViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\ViewModels\\CourseListViewModel.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\ViewModels\\CourseListViewModel.cs",
+              "RelativeToolTip": "SchoolManagement\\ViewModels\\CourseListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T19:30:47.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Services\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Services\\IDepartmentService.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Services\\IDepartmentService.cs",
+              "RelativeToolTip": "SchoolManagement\\Services\\IDepartmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:15:53.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Services\\ICourseService.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Services\\ICourseService.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Services\\ICourseService.cs",
+              "RelativeToolTip": "SchoolManagement\\Services\\ICourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:47:32.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Services\\CourseService.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Services\\CourseService.cs",
+              "RelativeToolTip": "SchoolManagement\\Services\\CourseService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwDQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:47:34.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Models\\Teacher.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Models\\Teacher.cs",
+              "RelativeToolTip": "SchoolManagement\\Models\\Teacher.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T11:09:21.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Models\\Student.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Models\\Student.cs",
+              "RelativeToolTip": "SchoolManagement\\Models\\Student.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T11:09:23.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "StuCrsRes.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Models\\StuCrsRes.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Models\\StuCrsRes.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Models\\StuCrsRes.cs",
+              "RelativeToolTip": "SchoolManagement\\Models\\StuCrsRes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T11:09:24.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Department.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Models\\Department.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Models\\Department.cs",
+              "RelativeToolTip": "SchoolManagement\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T11:09:14.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Course.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Models\\Course.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Models\\Course.cs",
+              "RelativeToolTip": "SchoolManagement\\Models\\Course.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA9wA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T11:09:22.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Course\\Add.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Course\\Add.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Course\\Add.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Course\\Add.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T19:33:16.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Course\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Course\\GetAll.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Course\\GetAll.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Course\\GetAll.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T19:31:46.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Course\\Index.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T21:01:30.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GetById.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Course\\GetById.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Course\\GetById.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Course\\GetById.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Course\\GetById.cshtml",
+              "ViewState": "AgIAAJ0AAAAAAAAAAADwv6QAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T19:33:18.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Course\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Course\\Edit.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Course\\Edit.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Course\\Edit.cshtml",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAiwH0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T19:33:17.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Course\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Course\\Delete.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Course\\Delete.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Course\\Delete.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAiwE0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T19:33:19.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Interfaces\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Interfaces\\ICourseRepository.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Interfaces\\ICourseRepository.cs",
+              "RelativeToolTip": "SchoolManagement\\Interfaces\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:13:12.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Interfaces\\IRepository.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "SchoolManagement\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:13:06.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Interfaces\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Interfaces\\IStudentRepository.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Interfaces\\IStudentRepository.cs",
+              "RelativeToolTip": "SchoolManagement\\Interfaces\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:13:10.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Student\\Delete.cshtml",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "SchoolManagement\\Views\\Student\\Delete.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwFYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T13:20:56.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "SchoolManagement\\appsettings.json",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\appsettings.json",
+              "RelativeToolTip": "SchoolManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-25T11:16:11.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Data\\SeedData.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Data\\SeedData.cs",
+              "RelativeToolTip": "SchoolManagement\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T14:23:38.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "SchoolContextFactory.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Data\\SchoolContextFactory.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Data\\SchoolContextFactory.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Data\\SchoolContextFactory.cs",
+              "RelativeToolTip": "SchoolManagement\\Data\\SchoolContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T11:54:17.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SchoolContext.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Data\\SchoolContext.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Data\\SchoolContext.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Data\\SchoolContext.cs",
+              "RelativeToolTip": "SchoolManagement\\Data\\SchoolContext.cs",
+              "ViewState": "AgIAADYAAACAmZmZmZkpwBsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T11:10:44.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Repositories\\CourseRepository.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "SchoolManagement\\Repositories\\CourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:14:30.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Repositories\\Repository.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Repositories\\Repository.cs",
+              "RelativeToolTip": "SchoolManagement\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T15:14:28.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "site.js",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "SchoolManagement\\wwwroot\\js\\site.js",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "SchoolManagement\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAALAAAAAAAAAAAAAkwNIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-29T13:57:28.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SchoolManagement\\wwwroot\\css\\site.css",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SchoolManagement\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAJkAAACAmZmZmZkpwBEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-29T13:57:05.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Student\\Edit.cshtml.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\Edit.cshtml.cs",
+              "RelativeToolTip": "SchoolManagement\\Views\\Student\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:55:21.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "GetAll.cshtml.cs",
+              "DocumentMoniker": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\GetAll.cshtml.cs",
+              "RelativeDocumentMoniker": "SchoolManagement\\Views\\Student\\GetAll.cshtml.cs",
+              "ToolTip": "E:\\DEPIAssignments\\solutionsMVC8\\SchoolManagement\\SchoolManagement\\Views\\Student\\GetAll.cshtml.cs",
+              "RelativeToolTip": "SchoolManagement\\Views\\Student\\GetAll.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T13:38:21.245Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

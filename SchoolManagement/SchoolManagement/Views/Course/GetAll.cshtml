@@ -1,0 +1,91 @@
+﻿@model SchoolManagement.ViewModels.CourseListViewModel
+@{
+    ViewData["Title"] = "All Courses";
+}
+
+<div class="container mt-4">
+    <h2>Courses Management</h2>
+
+    <!-- Search and Filter -->
+    <form method="get" class="row g-3 mb-4">
+        <div class="col-md-4">
+            <input type="text" name="searchName" value="@Model.SearchName" class="form-control" placeholder="Search by course name..." />
+        </div>
+        <div class="col-md-4">
+            <select name="departmentId" class="form-select">
+                <option value="">All Departments</option>
+                @foreach (var dept in Model.Departments)
+                {
+                    <option value="@dept.Id" selected="@(Model.FilterDepartmentId == dept.Id)">@dept.Name</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-4">
+            <button type="submit" class="btn btn-primary">Search</button>
+            <a href="@Url.Action("GetAll")" class="btn btn-secondary">Reset</a>
+            <a href="@Url.Action("Add")" class="btn btn-success">Add New Course</a>
+        </div>
+    </form>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+
+    <!-- Courses Table -->
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Course Name</th>
+                    <th>Degree</th>
+                    <th>Manager</th>
+                    <th>Department</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var course in Model.Courses)
+                {
+                    <tr>
+                        <td>@course.Name</td>
+                        <td>@course.Degree</td>
+                        <td>@course.MgrName</td>
+                        <td>@course.Department?.Name</td>
+                        <td>
+                            <a href="@Url.Action("GetById", new { id = course.Id })" class="btn btn-info btn-sm">Details</a>
+                            <a href="@Url.Action("Edit", new { id = course.Id })" class="btn btn-warning btn-sm">Edit</a>
+                            <a href="@Url.Action("Delete", new { id = course.Id })" class="btn btn-danger btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Pagination -->
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            @if (Model.HasPreviousPage)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="@Url.Action("GetAll", new { page = Model.CurrentPage - 1, searchName = Model.SearchName, departmentId = Model.FilterDepartmentId })">Previous</a>
+                </li>
+            }
+
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("GetAll", new { page = i, searchName = Model.SearchName, departmentId = Model.FilterDepartmentId })">@i</a>
+                </li>
+            }
+
+            @if (Model.HasNextPage)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="@Url.Action("GetAll", new { page = Model.CurrentPage + 1, searchName = Model.SearchName, departmentId = Model.FilterDepartmentId })">Next</a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>

@@ -1,0 +1,79 @@
+﻿@model SchoolManagement.ViewModels.DepartmentViewModel
+@{
+    ViewData["Title"] = "Department Details";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-10 mx-auto">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">@Model.Name</h4>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <p><strong>Department ID:</strong> @Model.Id</p>
+                            <p><strong>Manager Name:</strong> @Model.MgrName</p>
+                            <p><strong>Total Students:</strong> @Model.StudentCount</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                <strong>Department State:</strong>
+                                <span class="badge @(Model.DepartmentState == "Main" ? "bg-success" : "bg-secondary") fs-6">
+                                    @Model.DepartmentState
+                                </span>
+                            </p>
+                            <p><strong>Security Case:</strong> @Model.SecurityCase</p>
+                        </div>
+                    </div>
+
+                    @if (Model.Students.Any())
+                    {
+                        <hr>
+                        <h5 class="mb-3">Students over 25 years</h5>
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>Age</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var student in Model.Students)
+                                    {
+                                        <tr>
+                                            <td>@student.Id</td>
+                                            <td>@student.Name</td>
+                                            <td>@student.Age</td>
+                                            <td>
+                                                <a asp-controller="Student" asp-action="GetById" asp-route-id="@student.Id"
+                                                   class="btn btn-sm btn-info">
+                                                    <i class="bi bi-eye"></i> View
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-info">
+                            <i class="bi bi-info-circle"></i> No students over 25 years found in this department.
+                        </div>
+                    }
+                </div>
+                <div class="card-footer bg-light">
+                    <a asp-action="ShowAll" class="btn btn-secondary">
+                        <i class="bi bi-arrow-left"></i> Back to All Departments
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,69 @@
+﻿@model SchoolManagement.Models.Student
+@{
+    ViewData["Title"] = "Student Details";
+}
+
+<div class="container">
+    <h2>Student Details</h2>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h4>@Model.Name</h4>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><strong>Student ID:</strong> @Model.Id</p>
+                            <p><strong>Name:</strong> @Model.Name</p>
+                            <p><strong>Age:</strong> @Model.Age</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>Department:</strong> @Model.Department?.Name</p>
+                            <p><strong>Department Manager:</strong> @Model.Department?.MgrName</p>
+                        </div>
+                    </div>
+
+                    @if (Model.StuCrsRes != null && Model.StuCrsRes.Any())
+                    {
+                        <div class="mt-4">
+                            <h5>Course Enrollments</h5>
+                            <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Course Name</th>
+                                            <th>Degree</th>
+                                            <th>Grade</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var enrollment in Model.StuCrsRes)
+                                        {
+                                            <tr>
+                                                <td>@enrollment.Course?.Name</td>
+                                                <td>@enrollment.Course?.Degree</td>
+                                                <td>@enrollment.Grade</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-info mt-4">
+                            <p>This student is not enrolled in any courses.</p>
+                        </div>
+                    }
+                </div>
+                <div class="card-footer">
+                    <a asp-action="ShowAll" class="btn btn-secondary">Back to All Students</a>
+                    <a asp-controller="Department" asp-action="ShowDetails" asp-route-id="@Model.DepartmentId" class="btn btn-info">View Department</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

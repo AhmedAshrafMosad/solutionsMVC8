@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to School Management</h1>
+    <p>Choose an option from the navigation menu above.</p>
+
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Students</h5>
+                    <p class="card-text">Manage student records</p>
+                    <a asp-controller="Student" asp-action="GetAll" class="btn btn-primary">View Students</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Departments</h5>
+                    <p class="card-text">Manage departments</p>
+                    <a asp-controller="Department" asp-action="GetAll" class="btn btn-primary">View Departments</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Courses</h5>
+                    <p class="card-text">Manage courses</p>
+                    <a asp-controller="Course" asp-action="GetAll" class="btn btn-primary">View Courses</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
